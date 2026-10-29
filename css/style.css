@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #0b3d2e;
+}
+
+#site-main {
+	
+}
+
+.calendar-door {
+	width: 100px;
+	height: 100px;
+	border: 3px solid #f5c543;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 94px;
+	margin: 10px;
+	background-color: #fffaf0;
+	background-size: cover;
+	color: #0b3d2e;
+	font-family: 'Mountains of Christmas', cursive;
+	font-size: 36px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: transform 0.6s;
+}
+
+.calendar-door:hover {
+	transform: scale(1.10);
+}
+
+.door-number {
+	margin: 0;
+}
+
+#calendar-container {
+	width: 100%;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 0 10px;
+}
+
+#calendar-header {
+	margin: 0 0 20px 0;
+	background-color: #b3002b;
+	color: #f5c543;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Mountains of Christmas', cursive;
+	font-size: 28px;
+}
+#calendar-body {
+	background-color: #8b0f1a;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.alert {
+	display: none;
+	padding: 20px;
+	margin-top: 20px;
+	background-color:#2e7d32;
+	color: white;
+}
+
+.closebtn {
+	float: right;
+	font-size: 22px;
+	font-weight: bold;
+	cursor: pointer;
+}
